@@ -1,5 +1,6 @@
 #ifndef CAR_H
 #define CAR_H
+
 #include <iostream>
 #include <iomanip>
 
@@ -35,5 +36,6 @@ class Car {
         void setTransponder(int t) { transponder = t; }
         void print() {
             cout << "[" << year << " " << make << " (" << transponder << ")]\n";
+        }
 };
 #endif
