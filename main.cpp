@@ -2,8 +2,9 @@
 
 #include "Car-1.h"
 #include <deque>
-#include <random>
-#include <ctime>
+
+using namespace std;
+
 
 const int QUEUE_SIZE = 2;
 const double PAY_TOLL = 0.55;
